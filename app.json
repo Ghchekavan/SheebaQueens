@@ -9,6 +9,14 @@
          ""
       ],   
    "repository": "https://github.com/Dhaneshwar-Singh/SheebaQueen/",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
    "buildpacks": [
    {
      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
